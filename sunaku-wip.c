@@ -295,7 +295,7 @@ combos {
         timeout-ms = <COMBO_FIRING_DECAY>;
         key-positions = <POS_LH_T3 POS_LH_T6>;
         bindings = <&tog LAYER_Gaming>;
-        layers = <0 LAYER_Gaming>;
+        layers = <LAYER_Base LAYER_Gaming>;
     };
     #endif
     #ifdef _A_TAB
@@ -303,7 +303,7 @@ combos {
         timeout-ms = <COMBO_FIRING_DECAY>;
         key-positions = <POS_LH_T4 POS_LH_T1>;
         bindings = <&mod_tab_chord _A_TAB LAYER_Cursor>;
-        layers = <0 1 2 3 4 5 6 7 8>;
+        layers = <LAYER_Base>;
     };
     #endif
 };
@@ -649,13 +649,8 @@ behaviors {
     #define RIGHT_MIDDY_KEY KEY_RH_C3R4
     #define RIGHT_INDEX_KEY KEY_RH_C2R4
     #define RIGHT_PLAIN_KEY KEY_RH_C1R4
-    #if defined(LAYER_Engram) && LAYER_Engram == 0
-    #define LeftPlainKey  engram_COMMA
-    #define RightPlainKey engram_DOT
-    #else
     #define LeftPlainKey  kp LEFT_PLAIN_KEY
     #define RightPlainKey kp RIGHT_PLAIN_KEY
-    #endif
 
     //
     // Home row mods with bilateral combinations support
@@ -3174,26 +3169,6 @@ behaviors {
         bindings = <&mo>, <&kp>;
         retro-tap; // tap on standalone hold
     };
-    plain_engram_COMMA: plain_typing_layer_engram_COMMA {
-        compatible = "zmk,behavior-hold-tap";
-        flavor = PLAIN_HOLDING_TYPE;
-        tapping-term-ms = <PLAIN_HOLDING_TIME>;
-        quick-tap-ms = <PLAIN_REPEAT_DECAY>; // enable repeat
-        require-prior-idle-ms = <PLAIN_STREAK_DECAY>;
-        #binding-cells = <2>;
-        bindings = <&mo>, <&engram_COMMA>;
-        retro-tap; // tap on standalone hold
-    };
-    plain_engram_DOT: plain_typing_layer_engram_DOT {
-        compatible = "zmk,behavior-hold-tap";
-        flavor = PLAIN_HOLDING_TYPE;
-        tapping-term-ms = <PLAIN_HOLDING_TIME>;
-        quick-tap-ms = <PLAIN_REPEAT_DECAY>; // enable repeat
-        require-prior-idle-ms = <PLAIN_STREAK_DECAY>;
-        #binding-cells = <2>;
-        bindings = <&mo>, <&engram_DOT>;
-        retro-tap; // tap on standalone hold
-    };
 
     //
     // Thumb cluster hold-tap keys for Miryoku layers
@@ -3247,120 +3222,6 @@ behaviors {
         compatible = "zmk,behavior-mod-morph";
         #binding-cells = <0>;
         bindings = <&kp RPAR>, <&kp GT>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-
-    //
-    // Custom shifted pairs for the Engram layout
-    // - https://engram.dev/
-    // - https://sunaku.github.io/engram-keyboard-layout.html
-    //
-    engram_N1: engram_shift_N1_PIPE {
-        compatible = "zmk,behavior-mod-morph";
-        #binding-cells = <0>;
-        bindings = <&kp N1>, <&kp PIPE>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-    engram_N2: engram_shift_N2_EQUAL {
-        compatible = "zmk,behavior-mod-morph";
-        #binding-cells = <0>;
-        bindings = <&kp N2>, <&kp EQUAL>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-    engram_N3: engram_shift_N3_TILDE {
-        compatible = "zmk,behavior-mod-morph";
-        #binding-cells = <0>;
-        bindings = <&kp N3>, <&kp TILDE>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-    engram_N4: engram_shift_N4_PLUS {
-        compatible = "zmk,behavior-mod-morph";
-        #binding-cells = <0>;
-        bindings = <&kp N4>, <&kp PLUS>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-    engram_N5: engram_shift_N5_LT {
-        compatible = "zmk,behavior-mod-morph";
-        #binding-cells = <0>;
-        bindings = <&kp N5>, <&kp LT>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-    engram_N6: engram_shift_N6_GT {
-        compatible = "zmk,behavior-mod-morph";
-        #binding-cells = <0>;
-        bindings = <&kp N6>, <&kp GT>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-    engram_N7: engram_shift_N7_CARET {
-        compatible = "zmk,behavior-mod-morph";
-        #binding-cells = <0>;
-        bindings = <&kp N7>, <&kp CARET>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-    engram_N8: engram_shift_N8_AMPS {
-        compatible = "zmk,behavior-mod-morph";
-        #binding-cells = <0>;
-        bindings = <&kp N8>, <&kp AMPS>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-    engram_N9: engram_shift_N9_PRCNT {
-        compatible = "zmk,behavior-mod-morph";
-        #binding-cells = <0>;
-        bindings = <&kp N9>, <&kp PRCNT>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-    engram_N0: engram_shift_N0_STAR {
-        compatible = "zmk,behavior-mod-morph";
-        #binding-cells = <0>;
-        bindings = <&kp N0>, <&kp STAR>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-    engram_SQT: engram_shift_SQT_LPAR {
-        compatible = "zmk,behavior-mod-morph";
-        #binding-cells = <0>;
-        bindings = <&kp SQT>, <&kp LPAR>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-    engram_DQT: engram_shift_DQT_RPAR {
-        compatible = "zmk,behavior-mod-morph";
-        #binding-cells = <0>;
-        bindings = <&kp DQT>, <&kp RPAR>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-    engram_COMMA: engram_shift_COMMA_SEMI {
-        compatible = "zmk,behavior-mod-morph";
-        #binding-cells = <0>;
-        bindings = <&kp COMMA>, <&kp SEMI>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-    engram_DOT: engram_shift_DOT_COLON {
-        compatible = "zmk,behavior-mod-morph";
-        #binding-cells = <0>;
-        bindings = <&kp DOT>, <&kp COLON>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-    engram_QMARK: engram_shift_QMARK_EXCL {
-        compatible = "zmk,behavior-mod-morph";
-        #binding-cells = <0>;
-        bindings = <&kp QMARK>, <&kp EXCL>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-    engram_HASH: engram_shift_HASH_DLLR {
-        compatible = "zmk,behavior-mod-morph";
-        #binding-cells = <0>;
-        bindings = <&kp HASH>, <&kp DLLR>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-    engram_AT: engram_shift_AT_GRAVE {
-        compatible = "zmk,behavior-mod-morph";
-        #binding-cells = <0>;
-        bindings = <&kp AT>, <&kp GRAVE>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-    engram_FSLH: engram_shift_FSLH_BSLH {
-        compatible = "zmk,behavior-mod-morph";
-        #binding-cells = <0>;
-        bindings = <&kp FSLH>, <&kp BSLH>;
         mods = <(MOD_LSFT|MOD_RSFT)>;
     };
 
