@@ -306,6 +306,31 @@ combos {
         layers = <LAYER_Base>;
     };
     #endif
+
+    combo_q {
+        timeout-ms = <80>;
+        key-positions = <29 30>;
+        bindings = <&kp P>;
+        layers = <LAYER_Base LAYER_Typing>;
+    };
+    combo_cedil {
+        timeout-ms = <100>;
+        key-positions = <59 60>;
+        bindings = <&kp BSLH>;
+        layers = <LAYER_Base LAYER_Typing>;
+    };
+    combo_z {
+        timeout-ms = <100>;
+        key-positions = <60 61>;
+        bindings = <&kp RBKT>;
+        layers = <LAYER_Base LAYER_Typing>;
+    };
+    combo_a {
+        timeout-ms = <100>;
+        key-positions = <25 26>;
+        bindings = <&kp Q>;
+        layers = <LAYER_Base LAYER_Typing>;
+    };
 };
 
 behaviors {
