@@ -330,29 +330,31 @@
 // Glove80 specific symbol overrides to support non "en-US" locales
 //
 #undef  AMPS
-#define AMPS  LS(N7)
+#define AMPS  LC(LS(KC_T))
 #undef  AT
-#define AT    LS(N2)
+#define AT    NINUS
 #undef  CARET
 #define CARET LS(N6)
 #undef  COLON
-#define COLON LS(SEMI)
+#define COLON LS(KC_COMMA)
 #undef  DLLR
 #define DLLR  LS(N4)
 #undef  DQT
-#define DQT   LS(SQT)
+#define DQT   N3
 #undef  EXCL
 #define EXCL  LS(N1)
 #undef  GT
-#define GT    LS(DOT)
+#define GT    LC(LA(KC_J))
 #undef  HASH
-#define HASH  LS(N3)
+#define HASH  EQUAL
 #undef  LBRC
-#define LBRC  LS(LBKT)
+#define LBRC  LC(LA(KC_D))
+#undef  LBRK
+#define LBRK  LC(LA(N9))
 #undef  LPAR
-#define LPAR  LS(N9)
+#define LPAR  N9
 #undef  LT
-#define LT    LS(COMMA)
+#define LT    LC(LA(KC_AGRAVE))
 #undef  PIPE
 #define PIPE  LS(BSLH)
 #undef  PLUS
@@ -362,9 +364,11 @@
 #undef  QMARK
 #define QMARK LS(FSLH)
 #undef  RBRC
-#define RBRC  LS(RBKT)
+#define RBRC  LC(LA(KC_L))
+#undef  RBRK
+#define RBRK  LC(LA(N0))
 #undef  RPAR
-#define RPAR  LS(N0)
+#define RPAR  N0
 #undef  STAR
 #define STAR  LS(N8)
 #undef  TILDE
@@ -3339,6 +3343,26 @@ behaviors {
         compatible = "zmk,behavior-mod-morph";
         #binding-cells = <0>;
         bindings = <&kp RPAR>, <&kp GT>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+
+    //
+    // Shift + LEFT_BRACKET = LEFT_BRACE
+    //
+    brack_left: left_bracket_and_left_brace {
+        compatible = "zmk,behavior-mod-morph";
+        #binding-cells = <0>;
+        bindings = <&kp LBRK>, <&kp LBRC>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+
+    //
+    // Shift + RIGHT_BRACKET = RIGHT_BRACE
+    //
+    brack_right: right_bracket_and_right_brace {
+        compatible = "zmk,behavior-mod-morph";
+        #binding-cells = <0>;
+        bindings = <&kp RBRK>, <&kp RBRC>;
         mods = <(MOD_LSFT|MOD_RSFT)>;
     };
 
