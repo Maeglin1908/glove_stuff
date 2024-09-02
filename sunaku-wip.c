@@ -3,6 +3,7 @@
 #define DIFFICULTY_LEVEL  0 // 0:custom, 1:easy -> 5:hard (see below)
 #define ENFORCE_BILATERAL   // cancels single-handed home row mod+tap
 #define WORLD_USE_COMPOSE   // use native Compose in place of Unicode
+#define USE_NUMPAD_KEYCODES
 
 #define LAYER_Base 0
 #define LAYER_Typing 1
@@ -129,6 +130,26 @@
 //
 // USE_NUMPAD_KEYCODES puts `KP_*` keycodes into the Number layer.
 //
+#ifdef USE_NUMPAD_KEYCODES
+#define _KP_N0 KP_N0
+#define _KP_N1 KP_N1
+#define _KP_N2 KP_N2
+#define _KP_N3 KP_N3
+#define _KP_N4 KP_N4
+#define _KP_N5 KP_N5
+#define _KP_N6 KP_N6
+#define _KP_N7 KP_N7
+#define _KP_N8 KP_N8
+#define _KP_N9 KP_N9
+#define _KP_PLUS KP_PLUS
+#define _KP_MINUS KP_MINUS
+#define _KP_ASTERISK KP_ASTERISK
+#define _KP_SLASH KP_SLASH
+#define _KP_COMMA KP_COMMA
+#define _KP_DOT KP_DOT
+#define _KP_EQUAL KP_EQUAL
+#define _KP_ENTER KP_ENTER
+#else
 #define _KP_N0 N0
 #define _KP_N1 N1
 #define _KP_N2 N2
@@ -147,6 +168,7 @@
 #define _KP_DOT DOT
 #define _KP_EQUAL EQUAL
 #define _KP_ENTER ENTER
+#endif
 
 //
 // Glove80 specific symbol overrides to support non "en-US" locales
