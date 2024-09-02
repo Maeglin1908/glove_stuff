@@ -277,6 +277,11 @@
 #define _FIND       _C(KC_F)
 #define _FIND_NEXT  _C(KC_G)
 #define _FIND_PREV  _C(LS(KC_G))
+#define _URL_BAR    _C(KC_L)
+#define _DOWNLOADS  _C(KC_J)
+#define _SELECT_ALL _C(KC_A)
+#define _FIND_REPL  _C(KC_H)
+
 
 //
 // USE_NUMPAD_KEYCODES puts `KP_*` keycodes into the Number layer.
