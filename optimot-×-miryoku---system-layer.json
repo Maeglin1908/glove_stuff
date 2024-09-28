@@ -1,0 +1,380 @@
+[
+  {
+    "name": "Optimot × Miryoku - System Layer",
+    "author": "Nilgam",
+    "css": "/* front legend */\n.keylabel10 div { \n    font-size: xx-small;\n    font-style: italic;\n    text-shadow: 1px 1px 2px #FFD600;\n}\n/* description */\ncenter h2 {\n    margin-top: 1em;\n}\ncenter ul {\n    padding-left: 0;\n    margin-top: 1em;\n    padding-top: 1em;\n    font-size: smaller;\n}\ncenter ul li {\n    margin-top: 1ex;\n    list-style-type: none;\n}\ncenter ul li a {\n    font-weight: bold;\n}\ncenter .permalink {\n    font-size: x-small;\n}\ncenter em {\n    font-weight: normal;\n    font-style: normal;\n}"
+  },
+  [
+    {
+      "x": 2,
+      "g": true,
+      "p": "CHICKLET",
+      "a": 7
+    },
+    "F3",
+    "F4",
+    "F5",
+    {
+      "x": 8,
+      "t": "#EEEEEE"
+    },
+    "Reset",
+    {
+      "t": "#000000"
+    },
+    "F7",
+    "F8"
+  ],
+  [
+    {
+      "y": -0.75,
+      "x": 6,
+      "g": false,
+      "a": 4,
+      "f": 4,
+      "w": 6,
+      "h": 4.75,
+      "d": true
+    },
+    "<center><h2>System Layer</h2><p>MoErgo Glove80 keyboard</p><ul><li>Inspired by</li><li><a href='https://github.com/manna-harbour/miryoku'>Miryoku</a> layers & home row mods</li><li>(See <a href='https://is.gd/sunaku_glove80'>is.gd/sunaku_glove80</a>)</li><li>Mixed with </li><li><a href='https://optimot.fr'>Optimot</a> (by Patrick Jamet)</li></ul></center>"
+  ],
+  [
+    {
+      "y": -0.75,
+      "g": true,
+      "a": 7,
+      "f": 3
+    },
+    "F1",
+    "F2",
+    {
+      "x": 14
+    },
+    "F9",
+    {
+      "t": "#EEEEEE"
+    },
+    "Boot loader"
+  ],
+  [
+    {
+      "y": -0.5,
+      "x": 2,
+      "t": "#000000",
+      "a": 5
+    },
+    "@\n2",
+    "#\n3",
+    "$\n4",
+    "%\n5",
+    {
+      "x": 6
+    },
+    "^\n6",
+    "&\n7",
+    "*\n8",
+    "(\n9"
+  ],
+  [
+    {
+      "y": -0.5
+    },
+    "|\n\\",
+    "!\n1",
+    {
+      "x": 14
+    },
+    ")\n0",
+    "+\n="
+  ],
+  [
+    {
+      "y": -0.5,
+      "x": 2,
+      "c": "#ffccbc",
+      "g": false,
+      "a": 7
+    },
+    "Hue ➖",
+    "Hue ➕",
+    {
+      "c": "#cccccc",
+      "g": true
+    },
+    "U",
+    {
+      "a": 5
+    },
+    "\"\n'",
+    {
+      "x": 6,
+      "c": "#dcedc8",
+      "g": false,
+      "a": 7
+    },
+    "Sat ➕",
+    {
+      "c": "#cccccc"
+    },
+    "Shift\n\n\n\nShift",
+    "Ctrl\n\n\n\nCtrl",
+    "Alt\n\n\n\nAlt"
+  ],
+  [
+    {
+      "y": -0.5,
+      "g": true,
+      "a": 5
+    },
+    "~\n`",
+    {
+      "a": 7
+    },
+    "B",
+    {
+      "x": 14,
+      "g": false
+    },
+    "Win\n\n\n\nWin",
+    {
+      "c": "#dcedc8"
+    },
+    "Sat ➖"
+  ],
+  [
+    {
+      "y": -0.5,
+      "x": 2,
+      "c": "#bbdefb"
+    },
+    "Bright ➖",
+    "Bright ➕",
+    {
+      "c": "#ffecb3",
+      "n": true
+    },
+    "Effect ➕",
+    {
+      "c": "#e1bee7"
+    },
+    "<small>Context</small> menu",
+    {
+      "x": 6,
+      "c": "#ffccbc"
+    },
+    "Hue ➕",
+    {
+      "c": "#e1bee7",
+      "n": true
+    },
+    "<small>Context</small> menu",
+    "Lock screen",
+    "Sleep"
+  ],
+  [
+    {
+      "y": -0.5,
+      "c": "#ffecb3"
+    },
+    "RGB toggle",
+    "Effect ➖",
+    {
+      "x": 14,
+      "c": "#e1bee7"
+    },
+    "Power",
+    {
+      "c": "#ffccbc"
+    },
+    "Hue ➖"
+  ],
+  [
+    {
+      "y": -0.5,
+      "x": 2,
+      "c": "#dcedc8"
+    },
+    "Sat ➖",
+    "Sat ➕",
+    {
+      "c": "#FFCDD2"
+    },
+    "Speed ➕",
+    {
+      "c": "#cccccc",
+      "g": true,
+      "a": 5
+    },
+    "_\n-",
+    {
+      "x": 6,
+      "c": "#FFCDD2",
+      "g": false,
+      "a": 7
+    },
+    "Speed ➕",
+    {
+      "c": "#ffecb3"
+    },
+    "RGB toggle",
+    {
+      "c": "#c5cae9"
+    },
+    "Print screen",
+    "Scroll lock"
+  ],
+  [
+    {
+      "y": -0.5,
+      "c": "#cccccc",
+      "g": true
+    },
+    "Shift",
+    {
+      "c": "#FFCDD2",
+      "g": false
+    },
+    "Speed ➖",
+    {
+      "x": 14,
+      "c": "#c5cae9"
+    },
+    "Pause break",
+    {
+      "c": "#FFCDD2"
+    },
+    "Speed ➖"
+  ],
+  [
+    {
+      "y": -0.5,
+      "x": 2,
+      "c": "#cccccc",
+      "g": true
+    },
+    "Page up",
+    {
+      "c": "#e1bee7",
+      "g": false
+    },
+    "Win (Sticky)",
+    {
+      "a": 4
+    },
+    "Ctrl\n\n\nDel\n\n\n\n\n\nAlt",
+    {
+      "x": 8,
+      "c": "#ffecb3",
+      "a": 7
+    },
+    "Effect ➕",
+    {
+      "c": "#bbdefb"
+    },
+    "Bright ➕",
+    "Bright ➖"
+  ],
+  [
+    {
+      "y": -0.5,
+      "c": "#cccccc",
+      "t": "#EEEEEE",
+      "g": true
+    },
+    "Magic",
+    {
+      "t": "#000000"
+    },
+    "Home",
+    {
+      "x": 14,
+      "c": "#ffecb3",
+      "g": false
+    },
+    "Effect ➖",
+    {
+      "c": "#cccccc",
+      "g": true,
+      "a": 5
+    },
+    "?\n/"
+  ],
+  [
+    {
+      "r": 30,
+      "rx": 9.1,
+      "ry": 2.75,
+      "y": 3.25,
+      "x": -1.3499999999999996,
+      "c": "#e1bee7",
+      "g": false,
+      "a": 7
+    },
+    "Lock screen",
+    "Sleep",
+    "Power"
+  ],
+  [
+    {
+      "y": 0.25,
+      "x": -1.8499999999999996,
+      "c": "#c5cae9",
+      "n": true
+    },
+    "Print screen",
+    {
+      "x": 0.25
+    },
+    "Scroll lock",
+    {
+      "x": 0.25
+    },
+    "Pause break"
+  ],
+  [
+    {
+      "r": -30,
+      "y": -2.25,
+      "x": -1.8499999999999996,
+      "c": "#cccccc",
+      "g": true,
+      "fa": [
+        9
+      ]
+    },
+    "&lArr;",
+    "&rArr;",
+    {
+      "c": "#D1C4E9",
+      "g": false,
+      "p": "SPACE",
+      "n": true
+    },
+    "<img src=\"https://openclipart.org/download/278214/fingerprint.svg\" width=\"36\" height=\"36\" />"
+  ],
+  [
+    {
+      "y": 0.25,
+      "x": -1.8499999999999996,
+      "c": "#757575",
+      "t": "#EEEEEE",
+      "p": "CHICKLET",
+      "f": 3
+    },
+    "Unlock layer",
+    {
+      "x": 0.25,
+      "c": "#cccccc",
+      "t": "#000000",
+      "g": true,
+      "f": 3
+    },
+    "Tab\n\n\n\nMouse",
+    {
+      "x": 0.25,
+      "g": false,
+      "f": 3
+    },
+    "Linux Magic SysRq\n\n\n\nSymbol"
+  ]
+]

@@ -1,0 +1,419 @@
+[
+  {
+    "name": "Optimot × Miryoku - Symbol Layer",
+    "author": "Nilgam",
+    "css": "/* front legend */\n.keylabel10 div { \n    font-size: xx-small;\n    font-style: italic;\n    text-shadow: 1px 1px 2px #FFD600;\n}\n/* description */\ncenter h2 {\n    margin-top: 1em;\n}\ncenter ul {\n    padding-left: 0;\n    margin-top: 1em;\n    padding-top: 1em;\n    font-size: smaller;\n}\ncenter ul li {\n    margin-top: 1ex;\n    list-style-type: none;\n}\ncenter ul li a {\n    font-weight: bold;\n}\ncenter .permalink {\n    font-size: x-small;\n}\ncenter em {\n    font-weight: normal;\n    font-style: normal;\n}"
+  },
+  [
+    {
+      "x": 2,
+      "g": true,
+      "p": "CHICKLET",
+      "a": 7
+    },
+    "F3",
+    "F4",
+    "F5",
+    {
+      "x": 8,
+      "t": "#EEEEEE"
+    },
+    "Reset",
+    {
+      "t": "#000000"
+    },
+    "F7",
+    "F8"
+  ],
+  [
+    {
+      "y": -0.75,
+      "x": 6,
+      "g": false,
+      "a": 4,
+      "f": 4,
+      "w": 6,
+      "h": 4.75,
+      "d": true
+    },
+    "<center><h2>Symbol Layer</h2><p>MoErgo Glove80 keyboard</p><ul><li>Inspired by</li><li><a href='https://github.com/manna-harbour/miryoku'>Miryoku</a> layers & home row mods</li><li>(See <a href='https://is.gd/sunaku_glove80'>is.gd/sunaku_glove80</a>)</li><li>Mixed with </li><li><a href='https://optimot.fr'>Optimot</a> (by Patrick Jamet)</li></ul></center>"
+  ],
+  [
+    {
+      "y": -0.75,
+      "g": true,
+      "a": 7,
+      "f": 3
+    },
+    "F1",
+    "F2",
+    {
+      "x": 14
+    },
+    "F9",
+    {
+      "t": "#EEEEEE"
+    },
+    "Boot loader"
+  ],
+  [
+    {
+      "y": -0.5,
+      "x": 2,
+      "c": "#bbdefb",
+      "t": "#000000",
+      "g": false,
+      "f": 7
+    },
+    "(",
+    ")",
+    {
+      "c": "#ffecb3"
+    },
+    ";",
+    ",",
+    {
+      "x": 6,
+      "c": "#cccccc",
+      "g": true,
+      "a": 5,
+      "f": 3
+    },
+    "^\n6",
+    "&\n7",
+    "*\n8",
+    "(\n9"
+  ],
+  [
+    {
+      "y": -0.5,
+      "c": "#d7ccc8",
+      "a": 7,
+      "f": 9
+    },
+    ".",
+    {
+      "c": "#ffcdd2",
+      "g": false
+    },
+    "`",
+    {
+      "x": 14,
+      "c": "#cccccc",
+      "g": true,
+      "a": 5,
+      "f": 3
+    },
+    ")\n0",
+    "+\n="
+  ],
+  [
+    {
+      "y": -0.5,
+      "x": 2,
+      "c": "#ffcdd2",
+      "g": false,
+      "a": 7,
+      "f": 7
+    },
+    "'",
+    "\"",
+    {
+      "c": "#bbdefb"
+    },
+    "}",
+    {
+      "c": "#ffecb3"
+    },
+    "?",
+    {
+      "x": 6,
+      "c": "#BDBDBD"
+    },
+    ";",
+    {
+      "c": "#cccccc",
+      "f": 3
+    },
+    "Shift\n\n\n\nShift",
+    "Ctrl\n\n\n\nCtrl",
+    "Alt\n\n\n\nAlt"
+  ],
+  [
+    {
+      "y": -0.5,
+      "c": "#e1bee7",
+      "f": 7
+    },
+    "!",
+    {
+      "c": "#bbdefb"
+    },
+    "{",
+    {
+      "x": 14,
+      "c": "#cccccc",
+      "f": 3
+    },
+    "Win\n\n\n\nWin",
+    {
+      "g": true
+    },
+    "Z"
+  ],
+  [
+    {
+      "y": -0.5,
+      "x": 2,
+      "c": "#dcedc8",
+      "g": false,
+      "f": 7
+    },
+    "=",
+    {
+      "c": "#ffccbc",
+      "f": 9
+    },
+    "_",
+    {
+      "c": "#ffecb3",
+      "f": 7,
+      "n": true
+    },
+    "$",
+    {
+      "f": 9
+    },
+    "*",
+    {
+      "x": 6,
+      "c": "#BDBDBD"
+    },
+    ".",
+    {
+      "c": "#a5d6a7",
+      "f": 3,
+      "n": true
+    },
+    "Back space",
+    "Tab",
+    "Space\n\n\n\nAltGr"
+  ],
+  [
+    {
+      "y": -0.5,
+      "c": "#ffecb3",
+      "f": 7
+    },
+    "#",
+    "^",
+    {
+      "x": 14,
+      "c": "#a5d6a7",
+      "f": 3
+    },
+    "Enter",
+    {
+      "c": "#cccccc",
+      "g": true
+    },
+    "Q"
+  ],
+  [
+    {
+      "y": -0.5,
+      "x": 2,
+      "c": "#dcedc8",
+      "g": false,
+      "f": 7
+    },
+    "|",
+    {
+      "f": 9
+    },
+    "-",
+    {
+      "f": 7
+    },
+    ">",
+    {
+      "c": "#ffecb3"
+    },
+    "/",
+    {
+      "x": 6,
+      "c": "#BDBDBD"
+    },
+    "/",
+    {
+      "c": "#a5d6a7",
+      "f": 3
+    },
+    "Delete",
+    "Shift-Tab",
+    {
+      "c": "#cccccc",
+      "g": true
+    },
+    "F"
+  ],
+  [
+    {
+      "y": -0.5,
+      "c": "#ffecb3",
+      "g": false,
+      "f": 7
+    },
+    "@",
+    {
+      "c": "#dcedc8"
+    },
+    "<",
+    {
+      "x": 14,
+      "c": "#cccccc",
+      "g": true,
+      "f": 3
+    },
+    "P",
+    "Shift"
+  ],
+  [
+    {
+      "y": -0.5,
+      "x": 2,
+      "c": "#bbdefb",
+      "g": false,
+      "f": 6
+    },
+    "[",
+    "]",
+    {
+      "c": "#ffccbc",
+      "f": 8
+    },
+    "+",
+    {
+      "x": 8,
+      "c": "#BDBDBD",
+      "g": true,
+      "f": 7
+    },
+    "(",
+    {
+      "f": 6
+    },
+    "[",
+    "]"
+  ],
+  [
+    {
+      "y": -0.5,
+      "c": "#e1bee7",
+      "g": false,
+      "f": 8
+    },
+    "~",
+    {
+      "c": "#ffccbc",
+      "f": 7
+    },
+    "&",
+    {
+      "x": 14,
+      "c": "#BDBDBD",
+      "g": true
+    },
+    ")",
+    {
+      "c": "#cccccc",
+      "f": 3
+    },
+    "F6"
+  ],
+  [
+    {
+      "r": 30,
+      "rx": 9.1,
+      "ry": 2.75,
+      "y": 3.25,
+      "x": -1.3499999999999996,
+      "c": "#e1bee7",
+      "g": false,
+      "f": 7
+    },
+    "\\",
+    {
+      "c": "#ffecb3",
+      "f": 9
+    },
+    ".",
+    "*"
+  ],
+  [
+    {
+      "y": 0.25,
+      "x": -1.8499999999999996,
+      "f": 7,
+      "n": true
+    },
+    "%",
+    {
+      "x": 0.25,
+      "f": 9
+    },
+    ":",
+    {
+      "x": 0.25,
+      "f": 7
+    },
+    ";"
+  ],
+  [
+    {
+      "r": -30,
+      "y": -2.25,
+      "x": -1.8499999999999996,
+      "c": "#cccccc",
+      "g": true,
+      "f": 3,
+      "fa": [
+        9
+      ]
+    },
+    "&lArr;",
+    "&rArr;",
+    {
+      "f": 3
+    },
+    "Enter\n\n\n\nSystem"
+  ],
+  [
+    {
+      "y": 0.25,
+      "x": -1.8499999999999996,
+      "c": "#757575",
+      "t": "#EEEEEE",
+      "g": false,
+      "f": 3
+    },
+    "Unlock layer",
+    {
+      "x": 0.25,
+      "c": "#cccccc",
+      "t": "#000000",
+      "g": true,
+      "f": 3
+    },
+    "Tab\n\n\n\nMouse",
+    {
+      "x": 0.25,
+      "c": "#D1C4E9",
+      "g": false,
+      "p": "SPACE",
+      "f": 3,
+      "n": true
+    },
+    "<img src=\"https://openclipart.org/download/278214/fingerprint.svg\" width=\"36\" height=\"36\" />"
+  ]
+]

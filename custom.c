@@ -20,15 +20,13 @@
 #define LAYER_Cursor 12
 #define LAYER_Number 13
 #define LAYER_Function 14
-#define LAYER_Emoji 15
-#define LAYER_Symbol 16
-#define LAYER_Mouse 17
-#define LAYER_System 18
-#define LAYER_World 19
-#define LAYER_Gaming 20
-#define LAYER_Factory 21
-#define LAYER_Lower 22
-#define LAYER_Magic 23
+#define LAYER_Symbol 15
+#define LAYER_Mouse 16
+#define LAYER_System 17
+#define LAYER_Gaming 18
+#define LAYER_Factory 19
+#define LAYER_Lower 20
+#define LAYER_Magic 21
 
 // TIP: Add more setting overrides here instead of editing them below.
 
@@ -88,12 +86,12 @@
 #define KEY_LH_C3R5 	C
 #define KEY_LH_C2R5 	V
 #define KEY_LH_C1R5 	B
-#define KEY_LH_T1 ESC
+#define KEY_LH_T1 ENTER
 #define KEY_LH_T2 UP
 #define KEY_LH_T3 DOWN
 #define KEY_RH_T3 LEFT
 #define KEY_RH_T2 RIGHT
-#define KEY_RH_T1 ENTER
+#define KEY_RH_T1 ESC
 #define KEY_RH_C1R5 	N
 #define KEY_RH_C2R5 	M
 #define KEY_RH_C3R5 	COMMA
@@ -105,12 +103,12 @@
 #define KEY_LH_C4R6 PG_UP
 #define KEY_LH_C3R6 PG_DN
 #define KEY_LH_C2R6 END
-#define KEY_LH_T4 BACKSPACE
-#define KEY_LH_T5 DELETE
+#define KEY_LH_T4 SPACE
+#define KEY_LH_T5 TAB
 #define KEY_LH_T6 LSFT
 #define KEY_RH_T6 LSFT
-#define KEY_RH_T5 TAB
-#define KEY_RH_T4 SPACE
+#define KEY_RH_T5 DELETE
+#define KEY_RH_T4 BACKSPACE
 #define KEY_RH_C2R6 LPAR
 #define KEY_RH_C3R6 LBKT
 #define KEY_RH_C4R6 RBKT
